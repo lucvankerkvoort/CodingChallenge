@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.addJob {
+  width: 100%;
+  border: none;
+  background: #f2f2f2;
+  box-shadow: 3px 2px 3px black;
+  border-radius: 5px;
+}
+.help {
+  visibility: hidden;
+}
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+.button {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  border: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  background-image: url("https://cdn0.iconfinder.com/data/icons/mixed-18/65/12-512.png");
+  background-size: contain;
+  background-position: center;
+}
+.button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  background-image: url("https://cdn0.iconfinder.com/data/icons/mixed-18/65/12-512.png");
+  background-size: contain;
+  background-position: center;
+}
+.joblisting h2 {
+  display: inline-block;
+}
+.joblisting p {
+  display: inline-block;
+}
+
+.joblisting {
+  position: relative;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 3px 3px 7px grey;
+  box-shadow: 3px 3px 7px gray;
+}
+
+#continue {
+  background: purple;
+  border: none;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px purple;
+  padding: 5px;
+}
+#continue:hover {
+  background: blue;
+}

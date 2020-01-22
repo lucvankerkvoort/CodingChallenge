@@ -1,2 +1,0 @@
-# CodingChallenge
-Created with CodeSandbox
